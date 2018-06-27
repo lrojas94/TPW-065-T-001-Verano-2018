@@ -1,0 +1,13 @@
+1) Descargar este quiz mediante github. En teoria, si llegaron hasta a aqui, tienen 1 punto. Ahora, dentro del folder `Quiz` cree un archivo con su nombre y responda:
+
+2) Dado los siguientes casos de uso, especifique si seria correcto usar redireccion 301 o 302:
+a - La compania esta cambiando su marca y nombre comercial.
+b - La pagina se encuentra en Remodelacion
+c - Se ha actualizado un articulo de un Blog.
+d - La web ha recibido un ataque DDOS
+
+3) Explique porque es importante especificar el tipo de redireccion (301 o 302) en terminos de SEO 
+
+4) Explique la diferencia que existe entre Cookies y Sesion.
+
+5) Procure subir sus respuestas a Github.
