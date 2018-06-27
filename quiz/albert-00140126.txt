@@ -1,0 +1,40 @@
+1) Descargar este quiz mediante github. En teoria, si llegaron hasta a aqui, tienen 1 punto. Ahora, dentro del folder `Quiz` cree un archivo con su nombre y responda:
+
+2) Dado los siguientes casos de uso, especifique si seria correcto usar redireccion 301 o 302:
+a - La compania esta cambiando su marca y nombre comercial.
+b - La pagina se encuentra en Remodelacion
+c - Se ha actualizado un articulo de un Blog.
+d - La web ha recibido un ataque DDOS
+
+3) Explique porque es importante especificar el tipo de redireccion (301 o 302) en terminos de SEO 
+
+4) Explique la diferencia que existe entre Cookies y Sesion.
+
+5) Procure subir sus respuestas a Github.
+
+
+Ejercicio 
+
+
+2-
+
+A- Usaria 301 : Porque la redireccion 301 es utilizada al momento de cambio de un dominio.
+B-En este caso seria 302 : Porque la redireccion 302 es utilizada temporalmente y asi cuando termine la remodelacion la pagina vuelve a su estado normal.
+C- En este caso 301 : Porque ya el articulo se actualizado para que se mantenga permanentemente, y asi se mantenga el trafico que tenia la antigua URL.
+D- En este caso seria 302 : Ya que 302 se utiliza cuando encontramos algun error en nuestra URL.
+
+
+
+
+
+
+3- Es muy importante especificar el tipo de redireccion porque 301 hace que se mantenga el flujo de trafico que recibia la URL anterior en la nueva URL y asi los buscadores como google actualizan la informacion. La
+ 302 no traspasa fuerza del SEO a la nueva URL.
+
+
+
+
+
+
+
+4- La diferencia es que la cookie es un archivo creado por una pagina web que guarda datos en texto plano y la sesion es para identifacar un usuario mientras hace peticiones en la web.
