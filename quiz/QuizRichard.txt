@@ -1,0 +1,31 @@
+Prof. Luis Rojas 
+Estudiante: Richard Gomez
+Matricula: 0014-0176  
+
+2) Dado los siguientes casos de uso, especifique si seria correcto usar redireccion 301 o 302:
+
+a - La compania esta cambiando su marca y nombre comercial. (301)
+b - La pagina se encuentra en Remodelacion (302)
+c - Se ha actualizado un articulo de un Blog. (302)
+d - La web ha recibido un ataque DDOS (302)
+
+3) Explique porque es importante especificar el tipo de redireccion (301 o 302) en terminos de SEO 
+   -----------------------------------------------------------------------------------------------
+                                            RESPUESTA
+(301): Es importante espicificar el tipo de las redireciones por el trafico de los usuarios, como tambien se debe estar seguro 
+en que tipo de redirecion queremos a puntar. En el caso de 301 si apuntamos a nuestra pagina con ese codigo nuestra pagina 
+podria desenfocarse y perder el mayor trafico posible que consumio anteriormente. (Tambien puede hacer un redirecion como tipos de cambio de nombre
+o algunas otras razones la cual se quiere modificar, aun asi tambien mantendria su vinculo en la lista de Google).
+
+(302): De igual forma tambien podemos redireccionar nuestra pagina temporalmente con el 302 sin perder el trafico adquirido 
+por la razon de que el servidor este actualizando algunos datos o articulos, como por si acaso alguna falla de pagina se encontrara
+en reparacion. La misma tambien mantendra su vinculo de usuario en la lista de Google.
+-----------------------------------------------------------------------------------------------
+ Explique la diferencia que existe entre Cookies y Sesion.
+-----------------------------------------------------------------------------------------------
+                                            RESPUESTA
+Las cookies se almacenan en el servidor del usuario, y en el las sessiones se quedan loggeada en las pagina mienstras el servidor este conectado con el cliente.
+
+
+
+
