@@ -11,6 +11,7 @@ import static spark.Spark.*;
 
 public class Servidor {
 	public static void main(String[] args) {
+	
 		staticFileLocation("/static");
 		
 		get("/", (req, res) -> {
@@ -37,10 +38,8 @@ public class Servidor {
 				// Establecemos la variable formulario con un valor:
 				req.session(true).attribute("formulario", "Muy bien, resolvieron el punto 3");
 				res.redirect("/form");
-				return null;
-				
+				return null;	
 			}
-			
 			// Se ha de retornar `Muy bien, resolvieron el punto 3`
 			// La 2da vez que se cliquea el boton de GET /form
 			return req.session(true).attribute("formulario");

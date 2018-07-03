@@ -1,9 +1,13 @@
 import static spark.Spark.*;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import spark.Session;
 
 public class Servidor {
 	public static void main(String[] args) {
+		Logger logger = LoggerFactory.getLogger(Servidor.class);
 		/**
 		 * TAREA:
 		 * Crear un contador *global* que cuente la cantidad
@@ -12,7 +16,8 @@ public class Servidor {
 		get("/counter-g", (req, res) -> {
 			// Contar y retornar todas las veces que
 			// han entrado en el contador.
-			
+			logger.info("Log me");
+			System.out.println("After log me");
 			return "?";
 		});
 		
