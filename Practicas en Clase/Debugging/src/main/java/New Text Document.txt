@@ -1,0 +1,6 @@
+{
+	"nombre": "Spider-man",
+	"categoria": "Accion y Aventura",
+	"descripcion": "Nueva pelicula del Hombre arana",
+	"puntaje": 5
+}

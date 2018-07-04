@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gson.Gson;
+import com.google.gson.annotations.JsonAdapter;
 
 import Modelos.Pelicula;
 
@@ -46,10 +47,12 @@ public class Servidor {
 			}
 		});
 		
+		// LEER TODAS LAS PELICULAS
 		get("/api/peliculas", (req, res) -> {
 			return peliculas;
 		}, gson::toJson);
 		
+		// LEER 1 SOLA PELICULA
 		get("/api/peliculas/:id", (req, res) -> {
 			try {
 				int id = Integer.parseInt(req.params(":id"));
@@ -61,31 +64,32 @@ public class Servidor {
 			}
 		}, gson::toJson);
 		
-		// A TRABAJAR:
+		// AGREGAR UNA PELICULA
 		post("/api/peliculas", (req, res) -> {
-			// Debe crear una nueva pelicula y 
-			// Agregarla a la lista.
-			
-			// Ayudese con el metodo: 
-			// gson.fromJson
-			return null;
-		});
-		// A TRABAJAR: 
+			Pelicula peliculaEnJSON = gson.fromJson(req.body(), Pelicula.class);
+			peliculas.add(peliculaEnJSON);
+			return peliculaEnJSON;
+		}, gson::toJson);
+		
+		// EDITAR UNA PELICULA
 		put("/api/peliculas/:id", (req, res) -> {
 			try {
-				// Debe tomar este ID, y editar
-				// Un objeto de la lista
 				int id = Integer.parseInt(req.params(":id"));
-				// gson.fromJson
-				return "Borrado con exito";
+				Pelicula peliculaVieja = peliculas.get(id);
+				Pelicula peliculaNueva = gson.fromJson(req.body(), Pelicula.class);
+				peliculaVieja.setNombre(peliculaNueva.getNombre());
+				peliculaVieja.setCategoria(peliculaNueva.getCategoria());
+				peliculaVieja.setDescripcion(peliculaNueva.getDescripcion());
+				peliculaVieja.setPuntaje(peliculaNueva.getPuntaje());
+				return peliculaVieja;
 			} catch (Exception e) {
 				log.error(e.getMessage());
 				e.printStackTrace();
-				return "No se pudo eliminar";
+				return "No se actualizar la pelicula";
 			}
-		});
+		}, gson::toJson);
 		
-		// COMPLETO
+		// BORRAR UNA PELICULA
 		delete("/api/peliculas/:id", (req, res) -> {
 			try {
 				int id = Integer.parseInt(req.params(":id"));
