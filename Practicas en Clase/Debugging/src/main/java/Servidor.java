@@ -10,12 +10,9 @@ import static spark.Spark.*;
  */
 
 public class Servidor {
-	public static void main(String[] args) {
-		staticFileLocation("/static");
-		
+	public static void main(String[] args) {		
 		get("/", (req, res) -> {
 			res.redirect("/form");
-			return null;
 		});	
 		
 		
