@@ -1,0 +1,17 @@
+Quiz #3:
+Crear una pagina web que muestre un carrito de compras utilizando templates. 
+Asuma que un articulo en el carrito de compra necesita los siguientes valores:
+- Precio
+- Nombre del articulo
+- Descripcion
+- Cantidad de articulos a comprar.
+
+Ha de mostrar, tanto el total en el carrito, como el total de un articulo en especifico,
+por ejemplo:
+
+CARRITO:
+
+- Gorra (Cantidad: 2) - Unidad: $1.00 | Total: $2.00
+- USB (Cantidad: 1) - Unidad: $0.50 | Total: $0.50 
+
+Total: $2.50
