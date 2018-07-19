@@ -1,0 +1,249 @@
+[33mcommit ec455463db0fe74a7952faefbb405e9249e86998[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Wed Jul 4 14:50:22 2018 -0600
+
+    Agregando API
+
+[33mcommit 35f821ce7ba4ee02655f1fbb3840141135c710d8[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: cfea97a cc8d5ae
+Author: Naivebrick <braynperalta@gmail.com>
+Date:   Tue Jul 3 00:44:11 2018 -0400
+
+    Merge branch 'master' of https://github.com/lrojas94/TPW-065-T-001-Verano-2018
+
+[33mcommit cc8d5ae584415509436c2b26bae7396e866bf8de[m
+Author: patriciova <patriciovalenzuela802@gmail.com>
+Date:   Tue Jul 3 00:42:11 2018 -0400
+
+    Create PatricioValenzuela
+
+[33mcommit cfea97a094327f8e485bc04ba18da4302a2c0cb8[m
+Author: Naivebrick <braynperalta@gmail.com>
+Date:   Tue Jul 3 00:41:38 2018 -0400
+
+    subiendo la practica
+
+[33mcommit f3113f4386ab71f392df4e7aaed9ee9aa886605e[m
+Author: jeimygarciia <jeimyg3004@gmail.com>
+Date:   Tue Jul 3 00:36:18 2018 -0400
+
+    agregando el debugging
+
+[33mcommit 1545e174d74581cc337e43497f7f05985fa29e95[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Mon Jul 2 21:50:11 2018 -0600
+
+    Agregando practica de debugging (Solo falto el formulario)
+
+[33mcommit 469f6a47a4e1259c58f8fe854e8ab5a16bbcc5ab[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon Jul 2 19:55:39 2018 -0400
+
+    Agregando proyecto API
+
+[33mcommit a03deb3bfc99e378c3b1c368a788ea1634775602[m
+Author: Luis Rojas <lrojas94@gmail.com>
+Date:   Sun Jul 1 14:48:54 2018 -0400
+
+    Agregando practica de debugging
+
+[33mcommit 7f968f6c2056a649720768eca7b9d99a835a3a01[m
+Author: Luis Rojas <lrojas94@gmail.com>
+Date:   Sun Jul 1 13:57:28 2018 -0400
+
+    Borrando folder TPW-065
+
+[33mcommit 17ea9da11f842c862209cb921fe0ea19fed0dc13[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Sat Jun 30 19:01:21 2018 -0600
+
+    Agregando el link de la tarea del curriculum vitae
+
+[33mcommit 219ae953fcc432bb33b840545028d979bf007970[m
+Author: Patricio Iván Valenzuela Acosta <00140109@academico.pucmm>
+Date:   Wed Jun 27 18:51:36 2018 -0400
+
+    Agregando quiz Valenzuela
+
+[33mcommit fef2a797332554013e7f76f735c19a6e3c594902[m
+Author: dassboy <dassboymc@gmail.com>
+Date:   Thu Jun 28 00:51:04 2018 +0200
+
+    QuizRichard
+
+[33mcommit 7ed5fcab39697d60680189783111f53950067e5a[m
+Author: Jeimy Abril García Rodríguez <00140299@academico.pucmm>
+Date:   Wed Jun 27 18:43:35 2018 -0400
+
+    agregando el quiz
+
+[33mcommit 05e0f19c501d5bfe330894a9e1799a6f3f601f3b[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Wed Jun 27 16:29:28 2018 -0600
+
+    Agregando mi archivo del quiz
+
+[33mcommit a07e37775da92bd4345daee621ec14233356df84[m
+Author: Luis Rojas <lrojas94@gmail.com>
+Date:   Wed Jun 27 17:07:54 2018 -0400
+
+    Agregado Quiz #2
+
+[33mcommit ad10f1005101466a05246cdf8576b470e859f3ad[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon Jun 25 20:36:28 2018 -0400
+
+    Agregando proyecto Formulario de login
+
+[33mcommit b1468ee28795c43863d235ac67db075be96fc07e[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon Jun 25 18:18:28 2018 -0400
+
+    Agregando proyecto de Sesion con lista de usuarios
+
+[33mcommit 4450c6ce02164379009ba7929d8e5125f707d688[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Mon Jun 18 21:20:44 2018 -0600
+
+    Agregando los links de las tareas al archivo txt
+
+[33mcommit 504c25d8eb5a8ba87cdc336c8aee8bd306576e1b[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Mon Jun 18 20:40:12 2018 -0600
+
+    Agregando las tareas que no habia subio al repositorio de la clase
+
+[33mcommit 4b6be3024b4685a78d89eee3c68c8d7d4093ee28[m
+Merge: cfa32c2 f21980f
+Author: dassboy <dassboymc@gmail.com>
+Date:   Tue Jun 19 02:35:22 2018 +0200
+
+    Merge branch 'master' of https://github.com/lrojas94/TPW-065-T-001-Verano-2018
+
+[33mcommit f21980f9676c80824b8bec3fa580fb28564e7303[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon Jun 18 20:32:08 2018 -0400
+
+    Agregando clase 4 y 6 (5 es el examen)
+
+[33mcommit 3e8fecb10a955d7f157a87e58bb21d3a3d5c5ec9[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon Jun 18 20:30:47 2018 -0400
+
+    Agregando proyecto de sesion y practica #1
+
+[33mcommit cfa32c25d77da734d67768a4b87d77fc2e275ed7[m
+Merge: f71f54c e2b6916
+Author: dassboy <dassboymc@gmail.com>
+Date:   Tue Jun 19 00:29:44 2018 +0200
+
+    Merge branch 'master' of https://github.com/lrojas94/TPW-065-T-001-Verano-2018
+
+[33mcommit f71f54c2c1278e5ff36057b71d1c042df6b4f7c9[m
+Author: dassboy <dassboymc@gmail.com>
+Date:   Tue Jun 19 00:26:41 2018 +0200
+
+    Subiendo
+
+[33mcommit e2b6916f7ff0e4ae18ab1a4f4086944afacdd29f[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Mon Jun 11 20:49:04 2018 -0600
+
+    Agregando mi link del proyecto de github
+
+[33mcommit 4bb50975ff67d101756b0b38812db6d3fd35255c[m
+Author: jeimygarciia <jeimyg3004@gmail.com>
+Date:   Mon Jun 11 19:02:00 2018 -0400
+
+    agregando link de el primer parcial
+
+[33mcommit 2f92bb8bc25cf4c5d932176f7162f306ce60c471[m
+Author: jeimygarciia <jeimyg3004@gmail.com>
+Date:   Mon Jun 11 18:57:09 2018 -0400
+
+    agregando link de examen
+
+[33mcommit 2da3be0df0a39df52f7ebe98693ddc1f6a517675[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Wed Jun 6 19:00:52 2018 -0400
+
+    Proyecto HTML en servidor
+
+[33mcommit 3f7a7943a8c164010fa2b4a29b7e541110de81ab[m
+Author: Richard Yunior Gomez Peña <00140176@academico.pucmm>
+Date:   Wed Jun 6 18:17:35 2018 -0400
+
+    Anadiendo mi primer commit
+
+[33mcommit ff3468ca9ff298f4ff4508066d047f917a93c568[m
+Author: jeimygarciia <jeimyg3004@gmail.com>
+Date:   Mon Jun 4 23:40:41 2018 -0400
+
+    esto es probando git
+
+[33mcommit 4a317f93a5e6af4e54363afe68b026adb5bc92f4[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon Jun 4 20:31:04 2018 -0400
+
+    Agregado proyecto - CreandoUnProyecto en Gradle
+
+[33mcommit 23cf1c666f34bba4cdd732f58fad4f41c33f6b85[m
+Author: Albert Santiago <albertsantiagodelacruz@gmail.com>
+Date:   Wed May 30 07:01:15 2018 -0600
+
+    Agregando prueba de Alert
+
+[33mcommit e244d0e73f2c2f44fa5b4faf5405ba8550641790[m
+Author: Luis Rojas <lrojas94@gmail.com>
+Date:   Mon May 28 14:16:39 2018 -0400
+
+    Agregando la clase #3 al igual que un conjunto de recursos
+
+[33mcommit 70060d3c5780fc7b264c488f85e613e3c0d1b783[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon May 21 20:06:35 2018 -0400
+
+    Limpieza de repositorio
+
+[33mcommit 9a63f3c6a8a52ea609b2be871b213e466a10e487[m
+Merge: fd374af 25b23be
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon May 21 18:40:26 2018 -0400
+
+    Merge branch 'master' of https://github.com/lrojas92/TPW-065-T-001-Verano-2018
+
+[33mcommit fd374af6cff26a4fc3a198709a43c9832051e214[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon May 21 18:40:21 2018 -0400
+
+    Borrando el cambio anterior
+
+[33mcommit 25b23be1cbfb720c5b43c37f2c361d9d3e3f0096[m
+Author: Richard Yunior Gomez Peña <00140176@academico.pucmm>
+Date:   Mon May 21 18:40:13 2018 -0400
+
+     Mi Primer Commit Con Luis Roja
+
+[33mcommit 6f5cbb286f70b7ffd8c0b845e6aca587f5676d40[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Mon May 21 18:28:07 2018 -0400
+
+    Agregando la clase numero 2
+
+[33mcommit 2d70dbd57d101f495adaa899ccd3292f25d66844[m
+Author: Denny Darlin Morán Gonzales <00140291@academico.pucmm>
+Date:   Wed May 16 19:09:23 2018 -0400
+
+    cambio de Denny
+
+[33mcommit 6f42ebf47ca68d8718fc4e1aaf6a2469f8fea14e[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Wed May 16 18:51:38 2018 -0400
+
+    Agregando el paso 7
+
+[33mcommit 2716abf754d6aba3a7ae8e659dbe9e2a0a7e39c1[m
+Author: Luis Eduardo Rojas Cabrera <le.rojas@academico.pucmm>
+Date:   Wed May 16 18:31:49 2018 -0400
+
+    1er commit: Agregando mensaje del profesor
