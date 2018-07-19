@@ -9,20 +9,25 @@ import static spark.Spark.*;
  * 3 - Al enviar el formulario de GET /form, la aplicacion se detiene.
  */
 
+
+ //debemos importar el paquete de java spark
 public class Servidor {
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
+		staticFileLocation("/static");
+		
 		get("/", (req, res) -> {
 			res.redirect("/form");
+			return null;
 		});	
 		
 		
-		get("/p2", (req, res) -> {
-			res.redirect("/p2.html");
+		get("/p2", (req, res) -> {   //esta ruta debe llamarse /p2.hmtl
+			res.redirect("/p2.html");  
 			return null;
 		});
 
 		
-		get("/form", (req, res) -> {
+		get("/form", (req, res) -> {  //debemos utilizar un parametro
 			// Al darle click al boton de enviar, la aplicacion lanza unos errores.
 			return "<form action='/form' method='POST'>"
 					+ "<input type='submit' value='enviar' />"
