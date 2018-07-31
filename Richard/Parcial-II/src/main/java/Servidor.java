@@ -83,12 +83,6 @@ public class Servidor {
         	res.status(302);
         	return "302: Lo que se solicita que la ha pagina ha sido movida";
         });
-    	
-    	get("/*", (req, res) -> {
-        	logger.info("NOT FOUND");
-        	res.status(404);
-        	return "404: NOT FOUND";
-        });
 		
 		before((req, res) -> {
 			//Revisamos si la Cookie existe
@@ -121,7 +115,8 @@ public class Servidor {
 			
 			Usuario usuarioEnSesion = req.session(true).attribute("usuarioEnSesion");
 			
-			return "Bienvenido " + usuarioEnSesion.getNombre() + " " + usuarioEnSesion.getApellido();
+			res.redirect("main.html");
+			return null;
 		});
 		
 		//Nos permite tener nombre de usuario y contrasena
